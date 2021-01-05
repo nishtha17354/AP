@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="456.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Signup">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="470.0" prefWidth="536.0" style="-fx-background-color: pink;">
+         <children>
+            
+            <PasswordField fx:id="password" layoutX="163.0" layoutY="151.0" prefHeight="27.0" prefWidth="198.0" promptText="Enter password" />
+            <PasswordField fx:id="confirmP" layoutX="163.0" layoutY="195.0" prefHeight="27.0" prefWidth="198.0" promptText="Confirm password" />
+            <Label layoutX="75.0" layoutY="27.0" prefHeight="69.0" prefWidth="376.0" text="CREATE NEW ACCOUNT">
+               <font>
+                  <Font name="AppleMyungjo Regular" size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="189.0" layoutY="296.0" mnemonicParsing="false" onAction="#pressButton1" prefHeight="52.0" prefWidth="125.0" style="-fx-background-color: white;" text="Submit">
+               <font>
+                  <Font name="Apple Chancery" size="20.0" />
+               </font></Button>
+            <TextField fx:id="username" layoutX="163.0" layoutY="112.0" prefHeight="27.0" prefWidth="198.0" promptText="Enter username" />
+            <Button layoutX="419.0" layoutY="402.0" mnemonicParsing="false" onAction="#pressButton3" prefHeight="52.0" prefWidth="94.0" style="-fx-background-color: white;" text="NEXT">
+               <font>
+                  <Font name="Apple Chancery" size="20.0" />
+               </font>
+            </Button>
+            <MenuButton fx:id="m" layoutX="163.0" layoutY="235.0" mnemonicParsing="false" onAction="#handle" onContextMenuRequested="#handle" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: white;" text="Select type of user">
+               <items>
+                  <MenuItem fx:id="menuItem1" mnemonicParsing="false" onAction="#handle" text="End-User" />
+                  <MenuItem fx:id="menuItem2" mnemonicParsing="false" onAction="#handle" text="WarehouseAdministrator" />
+                  <MenuItem fx:id="menuItem3" mnemonicParsing="false" onAction="#handle" text="StoreAdministrator" />
+               </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

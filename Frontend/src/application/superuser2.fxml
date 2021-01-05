@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="466.0" prefWidth="599.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-32.0" layoutY="-50.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="192.0" layoutY="50.0" prefHeight="68.0" prefWidth="278.0" text="Add Warehouse">
+         <font>
+            <Font name="AppleMyungjo Regular" size="30.0" />
+         </font>
+      </Label>
+      <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="43.0" prefWidth="61.0" style="-fx-background-color: pink;" text="...">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Go Home" />
+          <MenuItem mnemonicParsing="false" text="Add Store" />
+          <MenuItem mnemonicParsing="false" text="Add Warehouse" />
+            <MenuItem mnemonicParsing="false" text="Add Warehouse Admin" />
+            <MenuItem mnemonicParsing="false" text="Add Store Admin" />
+            <MenuItem mnemonicParsing="false" text="Log Out" />
+        </items>
+      </MenuButton>
+      <Button layoutX="465.0" layoutY="382.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" style="-fx-background-color: white;" text="Submit">
+         <font>
+            <Font name="Apple Chancery" size="20.0" />
+         </font></Button>
+      <TextField alignment="CENTER" layoutX="192.0" layoutY="210.0" promptText="Enter Carrying Cost" style="-fx-background-color: white;">
+         <font>
+            <Font name="Apple Chancery" size="18.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="192.0" layoutY="150.0" promptText="Enter Name" style="-fx-background-color: white;">
+         <font>
+            <Font name="Apple Chancery" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

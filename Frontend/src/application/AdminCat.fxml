@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="537.0" prefWidth="731.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="109.0" layoutY="35.0" prefHeight="114.0" prefWidth="549.0" text="Categories">
+         <font>
+            <Font name="AppleMyungjo Regular" size="30.0" />
+         </font>
+      </Label>
+      <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="43.0" prefWidth="61.0" style="-fx-background-color: pink;" text="...">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Go Home" />
+          <MenuItem mnemonicParsing="false" text="Add a new category" />
+          <MenuItem mnemonicParsing="false" text="Add a new sub-category" />
+            <MenuItem mnemonicParsing="false" text="Add an item" />
+            <MenuItem mnemonicParsing="false" text="Delete a category" />
+            <MenuItem mnemonicParsing="false" text="Delete a sub-category" />
+            <MenuItem mnemonicParsing="false" text="Delete an item" />
+            <MenuItem mnemonicParsing="false" text="Log out" />
+        </items>
+      </MenuButton>
+      <VBox layoutX="293.0" layoutY="160.0" prefHeight="174.0" prefWidth="185.0">
+         <children>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="200.0" text="Beauty">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Make-Up" />
+                <MenuItem mnemonicParsing="false" text="Cosmetics" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="27.0" prefWidth="200.0" text="Clothing">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Lowers" />
+                <MenuItem mnemonicParsing="false" text="Tops" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="27.0" prefWidth="200.0" text="Books">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Adult" />
+                <MenuItem mnemonicParsing="false" text="Children" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="27.0" prefWidth="200.0" text="Electronics">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Home appliances" />
+                <MenuItem mnemonicParsing="false" text="Computers" />
+              </items>
+            </SplitMenuButton>
+         </children>
+      </VBox>
+      <Button layoutX="292.0" layoutY="341.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="187.0" text="Sort Alphabatecially" />
+   </children>
+</AnchorPane>

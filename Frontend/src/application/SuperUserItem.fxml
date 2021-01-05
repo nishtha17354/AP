@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="537.0" prefWidth="731.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="91.0" layoutY="32.0" prefHeight="114.0" prefWidth="549.0" text="Gadgets">
+         <font>
+            <Font name="AppleMyungjo Regular" size="30.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="437.0" layoutY="338.0">
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <TableView layoutX="179.0" layoutY="124.0" prefHeight="353.0" prefWidth="409.0">
+        <columns>
+          <TableColumn prefWidth="94.0" text="Item" />
+          <TableColumn prefWidth="105.0" text="Quantity" />
+            <TableColumn prefWidth="105.0" text="Price" />
+            <TableColumn prefWidth="105.0" text="Submit" />
+        </columns>
+      </TableView>
+      <MenuButton contentDisplay="BOTTOM" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="61.0" style="-fx-background-color: pink;" text="...">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Go Home" />
+          <MenuItem mnemonicParsing="false" text="Add Store" />
+          <MenuItem mnemonicParsing="false" text="Add Warehouse" />
+            <MenuItem mnemonicParsing="false" text="Create Warehouse Admin" />
+            <MenuItem mnemonicParsing="false" text="Create Store Admin" />
+            <MenuItem mnemonicParsing="false" text="Log out" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

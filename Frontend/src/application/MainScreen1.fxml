@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="470.0" prefWidth="608.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.mainPage">
+   <children>
+      <Label alignment="CENTER" layoutX="202.0" layoutY="14.0" opacity="0.92" prefHeight="65.0" prefWidth="215.0" text="BODEGA" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="AppleMyungjo Regular" size="50.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor></Label>
+      <Label layoutX="198.0" layoutY="102.0" opacity="0.57" prefHeight="65.0" prefWidth="224.0" textFill="#402626">
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+         <font>
+            <Font name="Courier New" size="20.0" />
+         </font>
+      </Label>
+      <AmbientLight color="CHARTREUSE" layoutX="82.0" layoutY="194.0" lightOn="true" />
+      <TextField fx:id="username" layoutX="202.0" layoutY="121.0" prefHeight="27.0" prefWidth="204.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="202.0" layoutY="166.0" prefHeight="27.0" prefWidth="204.0" promptText="Password" />
+      <Button layoutX="202.0" layoutY="258.0" mnemonicParsing="false" onAction="#pressButton3" prefHeight="51.0" prefWidth="253.0" style="-fx-background-color: white;" text="Create New Account ">
+         <font>
+            <Font name="Apple Chancery" size="20.0" />
+         </font></Button>
+      <Button layoutX="482.0" layoutY="411.0" mnemonicParsing="false" onAction="#contact" style="-fx-background-color: white;" text="Contact Us">
+         <font>
+            <Font name="Apple Chancery" size="15.0" />
+         </font></Button>
+      <Button layoutX="202.0" layoutY="206.0" mnemonicParsing="false" onAction="#pressButton1" prefHeight="27.0" prefWidth="87.0" style="-fx-background-color: white;" text="Sign In">
+         <font>
+            <Font name="Apple Chancery" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="297.0" layoutY="206.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="155.0" style="-fx-background-color: white;" text="Forgot Password?">
+         <font>
+            <Font name="Apple Chancery" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

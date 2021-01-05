@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="537.0" prefWidth="731.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="109.0" layoutY="35.0" prefHeight="114.0" prefWidth="549.0" text="Electronics">
+         <font>
+            <Font name="AppleMyungjo Regular" size="30.0" />
+         </font>
+      </Label>
+      <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="43.0" prefWidth="61.0" style="-fx-background-color: pink;" text="...">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Go Home" />
+          <MenuItem mnemonicParsing="false" text="Add Store" />
+          <MenuItem mnemonicParsing="false" text="Add Warehouse" />
+            <MenuItem mnemonicParsing="false" text="Create Warehouse Admin" />
+            <MenuItem mnemonicParsing="false" text="Create Store Admin" />
+            <MenuItem mnemonicParsing="false" text="Log out" />
+        </items>
+      </MenuButton>
+      <GridPane layoutX="437.0" layoutY="338.0">
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Label layoutX="103.0" layoutY="195.0" prefHeight="43.0" prefWidth="78.0">
+         <font>
+            <Font name="Apple Chancery" size="20.0" />
+         </font>
+      </Label>
+      <VBox layoutX="293.0" layoutY="160.0" prefHeight="174.0" prefWidth="185.0">
+         <children>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="200.0" text="Home Appliances">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Microwave" />
+                <MenuItem mnemonicParsing="false" text="Mixer" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="27.0" prefWidth="200.0" text="Gadgets">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Mobile-phones" />
+                <MenuItem mnemonicParsing="false" text="Tablets" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" prefHeight="27.0" prefWidth="200.0" text="Electronics">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Home appliances" />
+                <MenuItem mnemonicParsing="false" text="Computers" />
+              </items>
+            </SplitMenuButton>
+         </children>
+      </VBox>
+      <ToggleButton layoutX="297.0" layoutY="334.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="185.0" text="Sort Alphabetically" />
+   </children>
+</AnchorPane>

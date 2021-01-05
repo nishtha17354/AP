@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="537.0" prefWidth="731.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="109.0" layoutY="35.0" prefHeight="114.0" prefWidth="549.0" text="Welcome Warehouse Administrator!">
+         <font>
+            <Font name="AppleMyungjo Regular" size="30.0" />
+         </font>
+      </Label>
+      <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="43.0" prefWidth="61.0" style="-fx-background-color: pink;" text="...">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Go Home" />
+          <MenuItem mnemonicParsing="false" text="Add a new category" />
+          <MenuItem mnemonicParsing="false" text="Add a new sub-category" />
+            <MenuItem mnemonicParsing="false" text="Add an item" />
+            <MenuItem mnemonicParsing="false" text="Delete a category" />
+            <MenuItem mnemonicParsing="false" text="Delete a sub-category" />
+            <MenuItem mnemonicParsing="false" text="Delete an item" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="167.0" layoutY="230.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="397.0" style="-fx-background-color: pink;" text="Go check out another warehouse!!">
+         <font>
+            <Font name="Apple Chancery" size="24.0" />
+         </font>
+         <items>
+            <MenuItem mnemonicParsing="false" text="South Delhi Warehouse 1" />
+            <MenuItem mnemonicParsing="false" text="South Delhi Warehouse 2" />
+         </items>
+      </MenuButton>
+      <Button layoutX="209.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: pink;" text="See your warehouse data">
+         <font>
+            <Font name="Apple Chancery" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

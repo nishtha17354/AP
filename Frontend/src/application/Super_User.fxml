@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="537.0" prefWidth="731.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="109.0" layoutY="35.0" prefHeight="114.0" prefWidth="549.0" text="Welcome Super-User!">
+         <font>
+            <Font name="AppleMyungjo Regular" size="30.0" />
+         </font>
+      </Label>
+      <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="43.0" prefWidth="61.0" style="-fx-background-color: pink;" text="...">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Go Home" />
+          <MenuItem mnemonicParsing="false" text="Add Store" />
+          <MenuItem mnemonicParsing="false" text="Add Warehouse" />
+            <MenuItem mnemonicParsing="false" text="Create Warehouse Admin" />
+            <MenuItem mnemonicParsing="false" text="Create Store Admin" />
+            <MenuItem mnemonicParsing="false" text="Log out" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="251.0" layoutY="169.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="267.0" style="-fx-background-color: pink;" text="Go check out a store!">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Kailash Colony" />
+          <MenuItem mnemonicParsing="false" text="Vasant Vihar" />
+            <MenuItem mnemonicParsing="false" text="New Friends Colony" />
+        </items>
+         <font>
+            <Font name="Apple Chancery" size="24.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="221.0" layoutY="269.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="326.0" style="-fx-background-color: pink;" text="Go check out a warehouse!!">
+         <font>
+            <Font name="Apple Chancery" size="24.0" />
+         </font>
+         <items>
+            <MenuItem mnemonicParsing="false" text="South Delhi Warehouse 1" />
+            <MenuItem mnemonicParsing="false" text="South Delhi Warehouse 2" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

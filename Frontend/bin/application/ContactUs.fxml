@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="470.0" prefWidth="608.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Contact">
+   <children>
+      <Label alignment="CENTER" layoutX="192.0" layoutY="14.0" opacity="0.92" prefHeight="65.0" prefWidth="215.0" text="BODEGA" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="AppleMyungjo Regular" size="50.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor></Label>
+      <Label layoutX="198.0" layoutY="102.0" opacity="0.57" prefHeight="65.0" prefWidth="224.0" textFill="#402626">
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+         <font>
+            <Font name="Courier New" size="20.0" />
+         </font>
+      </Label>
+      <AmbientLight color="CHARTREUSE" layoutX="82.0" layoutY="194.0" lightOn="true" />
+      <Button layoutX="251.0" layoutY="373.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Go home">
+         <font>
+            <Font name="Apple Chancery" size="18.0" />
+         </font></Button>
+      <Label layoutX="222.0" layoutY="135.0" prefHeight="40.0" prefWidth="145.0" text="Varinee Jain">
+         <font>
+            <Font name="Apple Chancery" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="235.0" prefHeight="44.0" prefWidth="164.0" text="Nishtha Ahuja">
+         <font>
+            <Font name="Apple Chancery" size="24.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="185.0" layoutY="179.0" text="varinee17369@iiitd.ac.in">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="181.0" layoutY="279.0" prefHeight="31.0" prefWidth="237.0" text="nishtha17354@iiitd.ac.in">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
